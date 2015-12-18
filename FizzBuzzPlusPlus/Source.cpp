@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <iostream>
 
 /* First Attempt */
 /*
@@ -32,5 +31,5 @@ int main(int argv, int argc[]) {
 			printf("%i", x);
 		printf(".\n");
 	}
-	std::cin >> i;
+	scanf_s("%d", &i);
 }
