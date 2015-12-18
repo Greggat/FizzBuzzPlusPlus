@@ -21,7 +21,6 @@ int main(int argv, int argc[]) {
 */
 
 int main(int argv, int argc[]) {
-	int i;
 	for (int x = 1; x <= 100; x++) {
 		if (!(x % 3))
 			printf("Fizz");
@@ -31,5 +30,5 @@ int main(int argv, int argc[]) {
 			printf("%i", x);
 		printf(".\n");
 	}
-	scanf_s("%d", &i);
+	scanf_s("");
 }
